@@ -9,41 +9,42 @@ export const company = {
   email: 'hello@finocube.com',
   tagline: 'One Platform. Every Financial Product.',
   amfiNote:
-    'Finocube is an Elevest franchise partner. Mutual fund distribution is facilitated through Elevest (Artivatic Data Labs Private Limited), an AMFI-registered Mutual Fund Distributor.',
+    'Mutual fund investments are offered through AMFI-registered distribution infrastructure. Mutual Fund Investments are subject to market risks.',
   privacyNote: 'We do not share your mobile number or email ID.',
   complianceNote:
     'Mutual Fund Investments are subject to market risks. Read all scheme-related documents carefully before investing. Past performance is not indicative of future performance.',
+  partnershipNote: 'In partnership with Elevest',
 };
 
 export const openingQuote =
-  'Build a financial life with clarity — distribute and manage Mutual Funds, FDs, Bonds, and Loans on one modern platform, backed by Elevest.';
+  'Build a financial life with clarity — Mutual Funds, FDs, Bonds, and Loans in one place, guided by Finocube’s expert-led, smart, swift, and secure growth approach.';
 
 export const stats = [
   { value: '4', label: 'Product Categories' },
   { value: '2-min', label: 'Digital Onboarding' },
-  { value: 'Zero', label: 'Joining Fee' },
+  { value: 'Free', label: 'Consultation' },
   { value: 'AMFI', label: 'Compliant Network' },
 ];
 
 export const heroBadges = [
-  '2-min Digital Onboarding',
-  'Zero Joining Fee',
+  'Expert-Led Guidance',
+  'Smart · Swift · Secure',
 ];
 
 export const aboutStory = {
   intro:
-    'Finocube brings Elevest’s complete distribution platform to clients and partners who want every financial product in one place — Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — with modern tools and transparent support.',
+    'Finocube is your one-stop destination for financial growth — Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — with clear guidance, modern tools, and transparent support built around you.',
   origin:
-    'As an Elevest franchise partner, Finocube combines local guidance with Elevest’s technology: unified dashboards, UPI-mandate SIPs, earnings visibility, and one-click product pitching — so growing a financial practice feels simple and professional.',
+    'We combine personalised advice with a seamless digital experience: goal-based planning, instant SIPs, portfolio clarity, and products matched to your life stage — so growing wealth feels simple and confident.',
   today:
-    'Whether you are building long-term wealth for your household or expanding your advisory business, Finocube offers goal-aligned investing expertise alongside Elevest’s multi-product distribution infrastructure.',
+    'Whether you are starting your first SIP or planning retirement, Finocube gives you expert-led, smart, swift, and secure solutions designed for households and individuals — not for selling to other advisors.',
   closing:
-    'At its core, Finocube is about disciplined planning, product choice, and enduring relationships — powered by Elevest, delivered with personal care.',
+    'At its core, Finocube is about disciplined planning, the right product mix, and enduring client relationships that last beyond market cycles.',
 };
 
 export const philosophyBlend = [
-  'The trust and personalisation of a local franchise partner',
-  'The scale and technology of Elevest’s distribution platform',
+  'The trust and personalisation of a dedicated local expert',
+  'One-stop, smart, swift, and secure growth solutions for every client',
 ];
 
 export const approachPoints = [
@@ -70,10 +71,10 @@ export const approachPoints = [
 ];
 
 export const vision =
-  'To help every household and partner grow with clarity — one platform, every financial product, and guidance that lasts beyond market cycles.';
+  'To be every client’s one-stop destination for expert-led, smart, swift, and secure financial growth — one platform, every product, guidance that lasts beyond market cycles.';
 
 export const goal =
-  'To deliver Elevest-powered distribution with Finocube’s local expertise: disciplined, compliant, and goal-oriented solutions for every client.';
+  'To deliver disciplined, compliant, and goal-oriented solutions for every client — with clarity, speed, and care at every step.';
 
 export const missionPillars = [
   {
@@ -83,18 +84,18 @@ export const missionPillars = [
   },
   {
     number: '02',
-    title: 'Complete Product Distribution',
-    text: 'Mutual Funds, Fixed Deposits, Bonds, and Personal Loans on one platform — more ways to serve every need.',
+    title: 'Complete Product Access',
+    text: 'Mutual Funds, Fixed Deposits, Bonds, and Personal Loans on one platform — more ways to meet every need.',
   },
   {
     number: '03',
     title: 'Technology-Driven Experience',
-    text: 'Unified dashboards, instant UPI SIPs, payout visibility, and WhatsApp pitch sharing — built for modern India.',
+    text: 'Clear dashboards, instant UPI SIPs, and easy digital journeys — built for modern Indian households.',
   },
   {
     number: '04',
     title: 'Financial Literacy & Awareness',
-    text: 'Education that empowers investors and partners to make informed, confident decisions.',
+    text: 'Education that empowers clients to make informed, confident decisions.',
   },
   {
     number: '05',
@@ -107,25 +108,25 @@ export const products = [
   {
     title: 'Mutual Funds',
     description:
-      'Offer SIP, Lumpsum, and Switch transactions on AMFI-registered sub-broker infrastructure, and build long-term trail income.',
+      'Start SIPs, lumpsum investments, and switches with expert guidance — build long-term wealth across equity, debt, and hybrid categories.',
     tag: 'Invest',
   },
   {
     title: 'Bonds',
     description:
-      'Distribute SEBI-regulated Bonds and offer clients attractive returns from AAA-rated Corporate and Government Issuers.',
+      'Access SEBI-regulated Bonds and explore attractive returns from AAA-rated Corporate and Government Issuers.',
     tag: 'Income',
   },
   {
     title: 'Fixed Deposit',
     description:
-      'Offer curated FDs from leading NBFCs at competitive interest rates — a low-friction, high-trust product to grow your book.',
+      'Choose curated FDs from leading NBFCs at competitive interest rates — a low-friction, high-trust option for stability.',
     tag: 'Stability',
   },
   {
     title: 'Personal Loans',
     description:
-      'Refer instant Personal Loans with minimal documentation and earn a flat payout on every successful disbursement.',
+      'Apply for instant Personal Loans with minimal documentation — when you need liquidity without disrupting your investments.',
     tag: 'Credit',
   },
 ];
@@ -176,20 +177,20 @@ export const goldenHorizonProducts = [
 
 export const platformFeatures = [
   {
-    title: 'Unified Dashboard',
-    description: 'SIP, FD, Bond & Loan on one screen — manage your entire book effortlessly.',
+    title: 'Unified Portfolio View',
+    description: 'SIP, FD, Bond & Loan on one screen — see your entire financial picture clearly.',
   },
   {
     title: 'UPI-mandate SIP in 60 Sec',
-    description: 'Register SIPs via UPI mandate instantly — less friction, faster onboarding.',
+    description: 'Start SIPs via UPI mandate instantly — less friction, faster progress.',
   },
   {
-    title: 'Earnings & Payout Visibility',
-    description: 'Track earnings and payout status with clear, real-time visibility.',
+    title: 'Transparent Tracking',
+    description: 'Follow holdings, contributions, and progress toward your goals with clarity.',
   },
   {
-    title: 'One-click Pitch Sharing',
-    description: 'Pitch products via WhatsApp and share curated opportunities in one tap.',
+    title: 'Easy Plan Sharing',
+    description: 'Share product details and plans securely when you need a second opinion or family alignment.',
   },
 ];
 
@@ -239,7 +240,7 @@ export const services = [
   {
     title: 'FDs, Bonds & Loans',
     description:
-      'Expand beyond mutual funds — curated Fixed Deposits, SEBI-regulated Bonds, and Personal Loan referrals for complete client coverage.',
+      'Go beyond mutual funds — curated Fixed Deposits, SEBI-regulated Bonds, and Personal Loans for complete financial coverage.',
     tag: 'Products',
   },
   {
@@ -255,10 +256,10 @@ export const services = [
     tag: 'Learn',
   },
   {
-    title: 'Partner Platform & Support',
+    title: 'Ongoing Client Support',
     description:
-      'Elevest-powered tools for client management, payouts, and product pitching — with Finocube’s local franchise support.',
-    tag: 'Partner',
+      'Regular reviews, clear reporting, and responsive guidance — so you never feel alone with your money decisions.',
+    tag: 'Support',
   },
 ];
 
@@ -272,16 +273,16 @@ export const testimonials = [
   },
   {
     quote:
-      'The team took time to understand our family’s goals before suggesting anything. No pressure, complete transparency — exactly the kind of partner we were looking for.',
+      'The team took time to understand our family’s goals before suggesting anything. No pressure, complete transparency — exactly the kind of advisor we were looking for.',
     name: 'Amit K.',
     detail: 'Goal-Based Planning',
     emoji: '💚',
   },
   {
     quote:
-      'Having access to Elevest’s platform through Finocube made onboarding and SIPs remarkably smooth. The process-driven approach gives us real peace of mind.',
+      'Onboarding and SIPs were remarkably smooth. The process-driven approach and clear communication give us real peace of mind.',
     name: 'Priya M.',
-    detail: 'Long-Term Partner',
+    detail: 'Long-Term Client',
     emoji: '🌟',
   },
 ];
@@ -510,24 +511,24 @@ export const navLinks = [
 
 export const faqs = [
   {
-    question: 'Is Finocube part of Elevest?',
+    question: 'What is Finocube?',
     answer:
-      'Yes. Finocube is an Elevest franchise partner. You get Elevest’s distribution platform and product suite, delivered with Finocube’s local support.',
+      'Finocube is a client-focused financial platform helping individuals and families grow wealth with Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — guided by expert-led, smart, swift, and secure advice.',
   },
   {
     question: 'What products can I access through Finocube?',
     answer:
-      'Mutual Funds, Fixed Deposits (FDs), Corporate Bonds, and Personal Loans — the same four revenue streams available on Elevest.',
+      'Mutual Funds, Fixed Deposits (FDs), Corporate Bonds, and Personal Loans — all in one place with clear guidance.',
   },
   {
-    question: 'Is there a joining fee?',
+    question: 'Is the first consultation free?',
     answer:
-      'No. Joining as a partner through the Elevest network is free. There are no registration or joining fees.',
+      'Yes. You can book a complimentary conversation to discuss your goals, risk profile, and the right product mix for you.',
   },
   {
-    question: 'Can I start without an ARN?',
+    question: 'How do I get started?',
     answer:
-      'You can start distributing Fixed Deposits, Corporate Bonds, and Personal Loans from day one. Elevest helps partners prepare for NISM certification and AMFI registration to distribute Mutual Funds.',
+      'Reach out via the contact form or call us. We complete a quick digital onboarding, understand your goals, and help you begin — often in minutes.',
   },
   {
     question: 'What is the Retirement Freedom Suite?',

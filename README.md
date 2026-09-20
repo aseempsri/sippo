@@ -1,8 +1,8 @@
 # Finocube
 
-Elevest franchise partner website for [finocube.com](https://finocube.com).
+Client-focused financial growth website for [finocube.com](https://finocube.com).
 
-Built from the Invest Strategy web codebase, restyled to match [Elevest](https://www.elevest.in/) and rebranded for Finocube.
+Expert-led guidance across Mutual Funds, FDs, Bonds, and Loans — smart, swift, and secure.
 
 ## Run locally
 

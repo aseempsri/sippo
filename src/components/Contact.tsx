@@ -26,8 +26,8 @@ export default function Contact() {
             <p className="section-label">Let&apos;s Connect</p>
             <h2 className="section-title">Ready to grow with Finocube?</h2>
             <p className="section-subtitle">
-              Book a complimentary conversation about your goals, product needs, or partner
-              onboarding on the Elevest-powered platform.
+              Book a complimentary conversation about your goals, risk profile, and the right
+              product mix for your household.
             </p>
 
             <div className="contact__details">
@@ -50,8 +50,11 @@ export default function Contact() {
               <div className="contact__detail glass">
                 <span className="contact__detail-icon">🛡️</span>
                 <div>
-                  <strong>Elevest Franchise Partner</strong>
-                  <p>{company.amfiNote}</p>
+                  <strong>How we help</strong>
+                  <p>
+                    Expert-led, smart, swift, and secure guidance across Mutual Funds, FDs, Bonds,
+                    and Loans.
+                  </p>
                 </div>
               </div>
             </div>
@@ -90,7 +93,7 @@ export default function Contact() {
                   <option>Fixed Deposits</option>
                   <option>Bonds</option>
                   <option>Personal Loans</option>
-                  <option>Partner / Franchise Onboarding</option>
+                  <option>Retirement Planning</option>
                   <option>Portfolio Review</option>
                   <option>Other</option>
                 </select>

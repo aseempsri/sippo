@@ -20,7 +20,7 @@ export default function Faq() {
           <p className="section-label">Got Questions?</p>
           <h2 className="section-title">We&apos;ve Got Answers.</h2>
           <p className="section-subtitle">
-            Common questions about Finocube as an Elevest franchise partner.
+            Common questions about growing with Finocube.
           </p>
         </motion.div>
 

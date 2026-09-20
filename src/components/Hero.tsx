@@ -23,7 +23,9 @@ export default function Hero({ isMobileReady = false }: HeroProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            <p className="section-label hero__eyebrow">Elevest Franchise Partner · {company.domain}</p>
+            <p className="section-label hero__eyebrow">
+              {company.name} · Expert-Led Growth · {company.domain}
+            </p>
             <TypewriterTitle />
             <motion.div
               className="hero__badges"
@@ -43,8 +45,8 @@ export default function Hero({ isMobileReady = false }: HeroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 2.8 }}
             >
-              Distribute Mutual Funds, FDs, Bonds, and Loans while managing clients effortlessly —
-              the Elevest experience, delivered locally by Finocube.
+              Access Mutual Funds, FDs, Bonds, and Loans in one place — with expert-led, smart,
+              swift, and secure guidance built around your goals.
             </motion.p>
             <motion.div
               className="hero__actions"
@@ -72,18 +74,18 @@ export default function Hero({ isMobileReady = false }: HeroProps) {
           >
             <div className="hero__card-top">
               <h2>Start in 2 minutes</h2>
-              <span className="hero__card-badge">★ Free To Join</span>
+              <span className="hero__card-badge">★ Free Consultation</span>
             </div>
             <p className="hero__card-copy">
-              Reach out with your mobile number — we&apos;ll help you onboard on the Elevest-powered
-              Finocube platform.
+              Share your mobile number — we&apos;ll help you onboard digitally and map the right
+              products to your goals.
             </p>
             <a href="#contact" className="btn-primary hero__card-cta">
-              Start Selling →
+              Book Free Consultation →
             </a>
             <ul className="hero__card-checks">
               <li>AMFI-compliant network</li>
-              <li>Elevest franchise partner</li>
+              <li>Client-first guidance</li>
             </ul>
           </motion.div>
         </div>

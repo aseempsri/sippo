@@ -19,8 +19,8 @@ export default function Services() {
           <p className="section-label">Expertise & Offerings</p>
           <h2 className="section-title">Everything you need, nothing you don&apos;t</h2>
           <p className="section-subtitle">
-            Thoughtful services designed around Elevest&apos;s product suite — so you can grow
-            wealth and your practice with clarity.
+            Thoughtful services designed for your financial life — so you can grow with clarity
+            and confidence.
           </p>
         </motion.div>
 

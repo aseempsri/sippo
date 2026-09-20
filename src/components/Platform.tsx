@@ -16,11 +16,11 @@ export default function Platform() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <p className="section-label">Your entire business, in one app</p>
-          <h2 className="section-title">Complete Distribution Platform</h2>
+          <p className="section-label">Your finances, in one place</p>
+          <h2 className="section-title">A Clearer Digital Experience</h2>
           <p className="section-subtitle">
-            Manage clients, products, and payouts with Elevest’s modern dashboard — built for
-            India’s distributors, available through Finocube.
+            Track products, start SIPs, and stay on top of your goals with a modern client
+            experience — built for clarity and speed.
           </p>
         </motion.div>
 

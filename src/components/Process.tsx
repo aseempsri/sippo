@@ -24,7 +24,7 @@ export default function Process() {
           <p className="section-label">Our Process</p>
           <h2 className="section-title">Simple steps, big peace of mind</h2>
           <p className="section-subtitle">
-            From your first hello to lifelong partnership — a journey that feels easy, supportive,
+            From your first hello to lifelong guidance — a journey that feels easy, supportive,
             and genuinely enjoyable.
           </p>
         </motion.div>

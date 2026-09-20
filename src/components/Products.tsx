@@ -16,11 +16,11 @@ export default function Products() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <p className="section-label">Products to distribute</p>
-          <h2 className="section-title">One Platform. Four Revenue Streams.</h2>
+          <p className="section-label">Products for you</p>
+          <h2 className="section-title">One Platform. Four Ways to Grow.</h2>
           <p className="section-subtitle">
-            The Elevest product suite — Mutual Funds, Bonds, Fixed Deposits, and Personal Loans —
-            available through Finocube.
+            Mutual Funds, Bonds, Fixed Deposits, and Personal Loans — everything you need in one
+            place, guided by Finocube.
           </p>
         </motion.div>
 
@@ -38,7 +38,7 @@ export default function Products() {
               <h3>{product.title}</h3>
               <p>{product.description}</p>
               <a href="#contact" className="products__cta">
-                Start Selling →
+                Get Started →
               </a>
             </motion.article>
           ))}

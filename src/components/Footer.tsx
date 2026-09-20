@@ -11,8 +11,8 @@ export default function Footer() {
             <img src={brandLogo} alt="Finocube" />
             <p className="footer__tagline">{company.tagline}</p>
             <p>
-              Finocube is an Elevest franchise partner — bringing Mutual Funds, FDs, Bonds, and
-              Loans together with goal-based planning and modern distribution tools.
+              Finocube helps individuals and families grow with Mutual Funds, FDs, Bonds, and Loans
+              — expert-led, smart, swift, and secure.
             </p>
           </div>
 
@@ -45,11 +45,6 @@ export default function Footer() {
                 <li><a href="#services">Services</a></li>
                 <li><a href="#stages">Life Stages</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li>
-                  <a href={company.partnerUrl} target="_blank" rel="noreferrer">
-                    Elevest
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -67,6 +62,11 @@ export default function Footer() {
 
         <div className="footer__bottom">
           <p>&copy; {new Date().getFullYear()} Finocube. All rights reserved.</p>
+          <p className="footer__partnership">
+            <a href={company.partnerUrl} target="_blank" rel="noreferrer">
+              {company.partnershipNote}
+            </a>
+          </p>
           <div className="footer__legal">
             <a href="#">Terms of Use</a>
             <a href="#">Privacy Policy</a>

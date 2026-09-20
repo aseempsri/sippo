@@ -28,7 +28,7 @@ export default function About() {
           transition={{ duration: 0.7 }}
         >
           <p className="section-label">About Finocube</p>
-          <h2 className="section-title">Elevest experience. Local franchise care.</h2>
+          <h2 className="section-title">One-stop growth. Built around you.</h2>
           <blockquote className="about__pull-quote">
             &ldquo;{openingQuote}&rdquo;
           </blockquote>
@@ -51,17 +51,12 @@ export default function About() {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.15 }}
           >
-            <span className="about__partner-badge">Franchise Partner</span>
+            <span className="about__partner-badge">For Clients</span>
             <h3>{company.name}</h3>
-            <p className="about__partner-of">
-              Powered by{' '}
-              <a href={company.partnerUrl} target="_blank" rel="noreferrer">
-                {company.partnerOf}
-              </a>
-            </p>
+            <p className="about__partner-of">Expert-led · Smart · Swift · Secure</p>
             <p className="about__partner-bio">
               One platform for Mutual Funds, FDs, Bonds, and Loans — with digital onboarding,
-              unified client management, and zero joining fee for partners.
+              clear portfolios, and personalised guidance for every household.
             </p>
             <div className="about__stats">
               {stats.map((stat) => (

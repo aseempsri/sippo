@@ -11,7 +11,7 @@ export const SHARE_IMAGE_FILE = 'og-share.png';
 export const SHARE_IMAGE_REVISION = '1';
 
 export const SITE_TITLE =
-  'Finocube | Elevest Franchise Partner — Every Financial Product';
+  'Finocube | Expert-Led, Smart, Swift & Secure Financial Growth';
 
 export const SITE_DESCRIPTION =
-  'Finocube is an Elevest franchise partner. Distribute Mutual Funds, FDs, Bonds, and Loans with goal-based planning, calculators, and modern distribution tools.';
+  'Finocube helps individuals and families grow with Mutual Funds, FDs, Bonds, and Loans — expert-led guidance, calculators, and clear digital tools.';
