@@ -1,13 +1,11 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import RunningBoldText from './RunningBoldText';
-import ownerPhoto from '../assets/owner.png';
 import {
   aboutStory,
   approachPoints,
   company,
   goal,
-  marketTimeline,
   missionPillars,
   openingQuote,
   philosophyBlend,
@@ -23,54 +21,47 @@ export default function About() {
   return (
     <section className="about" id="about" ref={ref}>
       <div className="container">
-        {/* Intro */}
         <motion.header
           className="about__header"
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <p className="section-label">About Investrategy</p>
-          <h2 className="section-title">Born from Bharat&apos;s wisdom of wealth</h2>
+          <p className="section-label">About Finocube</p>
+          <h2 className="section-title">Elevest experience. Local franchise care.</h2>
           <blockquote className="about__pull-quote">
             &ldquo;{openingQuote}&rdquo;
           </blockquote>
         </motion.header>
 
-        {/* Story + Founder */}
-        <div className="about__intro">
+        <div className="about__intro about__intro--solo">
           <RunningBoldText
             active={inView}
             className="about__story"
             paragraphs={[
               aboutStory.intro,
               aboutStory.origin,
-              aboutStory.evolution,
               aboutStory.today,
             ]}
           />
 
           <motion.aside
-            className="about__founder glass liquid-glass"
+            className="about__partner glass liquid-glass"
             initial={{ opacity: 0, x: 24 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.15 }}
           >
-            <div className="about__founder-profile">
-              <div className="about__founder-photo">
-                <img src={ownerPhoto} alt={company.founder} />
-              </div>
-              <div className="about__founder-identity">
-                <span className="about__founder-badge">Est. {company.founded}</span>
-                <h3>{company.founder}</h3>
-                <span className="about__founder-title">{company.founderTitle}</span>
-                <span className="about__founder-arn">ARN No. {company.arn}</span>
-                <span className="about__founder-rule" aria-hidden="true" />
-              </div>
-            </div>
-            <p className="about__founder-bio">
-              Founded Investrategy during the 2008 global financial crisis with a belief that true
-              wealth is built through discipline across market cycles — not moments of euphoria.
+            <span className="about__partner-badge">Franchise Partner</span>
+            <h3>{company.name}</h3>
+            <p className="about__partner-of">
+              Powered by{' '}
+              <a href={company.partnerUrl} target="_blank" rel="noreferrer">
+                {company.partnerOf}
+              </a>
+            </p>
+            <p className="about__partner-bio">
+              One platform for Mutual Funds, FDs, Bonds, and Loans — with digital onboarding,
+              unified client management, and zero joining fee for partners.
             </p>
             <div className="about__stats">
               {stats.map((stat) => (
@@ -83,36 +74,6 @@ export default function About() {
           </motion.aside>
         </div>
 
-        {/* Timeline */}
-        <motion.div
-          className="about__journey"
-          initial={{ opacity: 0, y: 24 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.2 }}
-        >
-          <div className="about__journey-header">
-            <p className="section-label">Our Journey</p>
-            <h3>Navigating every market cycle together</h3>
-          </div>
-          <div className="about__timeline">
-            <div className="about__timeline-track" aria-hidden="true" />
-            {marketTimeline.map((item, i) => (
-              <motion.div
-                key={item.year}
-                className="about__timeline-node"
-                initial={{ opacity: 0, y: 16 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ delay: 0.25 + i * 0.08 }}
-              >
-                <span className="about__timeline-dot" />
-                <span className="about__timeline-year">{item.year}</span>
-                <p>{item.event}</p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Vision, Goal & Philosophy */}
         <motion.div
           className="about__purpose glass-strong liquid-glass"
           initial={{ opacity: 0, y: 24 }}
@@ -143,7 +104,6 @@ export default function About() {
           </div>
         </motion.div>
 
-        {/* Approach */}
         <motion.div
           className="about__block"
           initial={{ opacity: 0, y: 24 }}
@@ -172,7 +132,6 @@ export default function About() {
           </div>
         </motion.div>
 
-        {/* Mission Pillars */}
         <motion.div
           className="about__block about__block--last"
           initial={{ opacity: 0, y: 24 }}

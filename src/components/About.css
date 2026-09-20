@@ -40,7 +40,8 @@
 }
 
 .about__intro > .about__story,
-.about__intro > .about__founder {
+.about__intro > .about__founder,
+.about__intro > .about__partner {
   align-self: start;
   margin: 0;
 }
@@ -101,6 +102,48 @@
 .running-bold p:not(.about__lead) {
   font-size: 0.9375rem;
   line-height: 1.75;
+}
+
+.about__partner {
+  padding: 1.75rem;
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.about__partner-badge {
+  align-self: flex-start;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-10);
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+}
+
+.about__partner h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.about__partner-of {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.about__partner-of a {
+  color: var(--link);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.about__partner-bio {
+  color: var(--text-secondary);
+  line-height: 1.65;
 }
 
 .about__founder {

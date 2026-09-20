@@ -1,7 +1,7 @@
 /** Production site URL (no trailing slash). */
-export const SITE_URL = 'https://aseempsri.github.io/investrategy';
+export const SITE_URL = 'https://aseempsri.github.io/finocube';
 
-/** Public-folder filename served at /investrategy/og-share.png */
+/** Public-folder filename served at /finocube/og-share.png */
 export const SHARE_IMAGE_FILE = 'og-share.png';
 
 /**
@@ -11,7 +11,7 @@ export const SHARE_IMAGE_FILE = 'og-share.png';
 export const SHARE_IMAGE_REVISION = '1';
 
 export const SITE_TITLE =
-  'investrategy | Your Money: Working Smarter';
+  'Finocube | Elevest Franchise Partner — Every Financial Product';
 
 export const SITE_DESCRIPTION =
-  'Your Money: Working Smarter — Financial life planning, investment strategy, and wealth guidance from an AMFI-registered advisor.';
+  'Finocube is an Elevest franchise partner. Distribute Mutual Funds, FDs, Bonds, and Loans with goal-based planning, calculators, and modern distribution tools.';

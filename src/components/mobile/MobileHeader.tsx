@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { navLinks } from '../../data/content';
-import brandLogo from '../../assets/main logo_-Photoroom.png';
+import brandLogo from '../../assets/finocube-logo.svg';
 import './MobileHeader.css';
 
 export default function MobileHeader() {
@@ -51,7 +51,7 @@ export default function MobileHeader() {
             <span className="mobile-header__logo-glow" aria-hidden="true" />
             <img
               src={brandLogo}
-              alt="investrategy"
+              alt="Finocube"
               className="mobile-header__logo-img"
             />
           </motion.div>

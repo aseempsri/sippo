@@ -1,24 +1,19 @@
 import { useEffect, useState } from 'react';
-import { company } from '../data/content';
 
-const [LINE1, LINE2] = (() => {
-  const colon = company.tagline.indexOf(':');
-  if (colon === -1) return [company.tagline, ''] as const;
-  return [
-    company.tagline.slice(0, colon + 1),
-    company.tagline.slice(colon + 1).trim(),
-  ] as const;
-})();
+const LINE1 = 'One Platform.';
+const LINE2 = 'Every Financial Product.';
+const LINE3 = 'One Business That Grows.';
 
-const TYPE_SPEED = 48;
-const PAUSE_BEFORE_LINE2 = 320;
-const PAUSE_BEFORE_RESET = 4500;
-const FADE_MS = 280;
+const TYPE_SPEED = 32;
+const PAUSE_BETWEEN_LINES = 220;
+const PAUSE_BEFORE_RESET = 3800;
+const FADE_MS = 240;
 
 export default function TypewriterTitle() {
   const [line1, setLine1] = useState('');
   const [line2, setLine2] = useState('');
-  const [onLine2, setOnLine2] = useState(false);
+  const [line3, setLine3] = useState('');
+  const [activeLine, setActiveLine] = useState<1 | 2 | 3>(1);
   const [done, setDone] = useState(false);
   const [fading, setFading] = useState(false);
 
@@ -44,17 +39,25 @@ export default function TypewriterTitle() {
         setFading(false);
         setLine1('');
         setLine2('');
-        setOnLine2(false);
+        setLine3('');
+        setActiveLine(1);
         setDone(false);
 
         await typeLine(LINE1, setLine1);
         if (cancelled) return;
 
-        await wait(PAUSE_BEFORE_LINE2);
+        await wait(PAUSE_BETWEEN_LINES);
         if (cancelled) return;
 
-        setOnLine2(true);
+        setActiveLine(2);
         await typeLine(LINE2, setLine2);
+        if (cancelled) return;
+
+        await wait(PAUSE_BETWEEN_LINES);
+        if (cancelled) return;
+
+        setActiveLine(3);
+        await typeLine(LINE3, setLine3);
         if (cancelled) return;
 
         setDone(true);
@@ -75,36 +78,43 @@ export default function TypewriterTitle() {
     };
   }, []);
 
-  const showCursorLine1 = !onLine2;
-  const showCursorLine2 = onLine2;
+  const fullLabel = `${LINE1} ${LINE2} ${LINE3}`;
 
   return (
     <h1 className="hero__title">
-      {/* Invisible full title reserves height so the hero never jumps */}
       <span className="hero__title-sizer" aria-hidden="true">
         <span className="hero__title-line">{LINE1}</span>
         <br />
         <span className="hero__title-line hero__title-line--accent">
           <span className="hero__title-accent">{LINE2}</span>
         </span>
+        <br />
+        <span className="hero__title-line">{LINE3}</span>
       </span>
 
       <span
         className={`hero__title-typed${fading ? ' hero__title-typed--fade' : ''}`}
-        aria-label={company.tagline}
+        aria-label={fullLabel}
       >
         <span className="hero__title-line">
           {line1}
-          {showCursorLine1 && (
+          {activeLine === 1 && (
             <span className="hero__cursor hero__cursor--light" aria-hidden="true" />
           )}
         </span>
         <br />
         <span className="hero__title-line hero__title-line--accent">
           <span className="hero__title-accent">{line2}</span>
-          {showCursorLine2 && (
+          {activeLine === 2 && (
+            <span className="hero__cursor hero__cursor--accent" aria-hidden="true" />
+          )}
+        </span>
+        <br />
+        <span className="hero__title-line">
+          {line3}
+          {activeLine === 3 && (
             <span
-              className={`hero__cursor hero__cursor--accent${done ? ' hero__cursor--idle' : ''}`}
+              className={`hero__cursor hero__cursor--light${done ? ' hero__cursor--idle' : ''}`}
               aria-hidden="true"
             />
           )}

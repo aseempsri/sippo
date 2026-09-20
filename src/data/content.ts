@@ -1,48 +1,49 @@
 import { publicAsset } from '../utils/paths';
 
 export const company = {
-  founded: 2008,
-  founder: 'Mr. Ashish Srivastava',
-  founderTitle: 'AMFI-Registered Advisor & Founder',
-  arn: '65251',
-  phone: '+91 90510 40384',
-  email: 'hello@investrategy.com',
-  amfiNote: 'AMFI-registered mutual fund distributor empanelled with leading Asset Management Companies across India.',
-  tagline: 'Your Money: Working Smarter',
+  name: 'Finocube',
+  domain: 'finocube.com',
+  partnerOf: 'Elevest',
+  partnerUrl: 'https://www.elevest.in/',
+  phone: '+91 92117 59888',
+  email: 'hello@finocube.com',
+  tagline: 'One Platform. Every Financial Product.',
+  amfiNote:
+    'Finocube is an Elevest franchise partner. Mutual fund distribution is facilitated through Elevest (Artivatic Data Labs Private Limited), an AMFI-registered Mutual Fund Distributor.',
   privacyNote: 'We do not share your mobile number or email ID.',
+  complianceNote:
+    'Mutual Fund Investments are subject to market risks. Read all scheme-related documents carefully before investing. Past performance is not indicative of future performance.',
 };
 
 export const openingQuote =
-  'If you are among those individuals disillusioned with the results of "using your life to make money," you will find the opposite mindset of "using your money to make a life" liberating and compelling.';
+  'Build a financial life with clarity — distribute and manage Mutual Funds, FDs, Bonds, and Loans on one modern platform, backed by Elevest.';
 
 export const stats = [
-  { value: '18+', label: 'Years of Trust · Est. 2008' },
-  { value: 'AMFI', label: '65251' },
-  { value: '42+', label: 'AMC Partners' },
-  { value: '1000+', label: 'Household Served' },
+  { value: '4', label: 'Product Categories' },
+  { value: '2-min', label: 'Digital Onboarding' },
+  { value: 'Zero', label: 'Joining Fee' },
+  { value: 'AMFI', label: 'Compliant Network' },
 ];
 
 export const heroBadges = [
-  '✨ AMFI-Registered Advisor',
-  '🎯 Goal-Based Mutual Fund Planning',
+  '2-min Digital Onboarding',
+  'Zero Joining Fee',
 ];
 
 export const aboutStory = {
   intro:
-    'In Bharat, the philosophy of wealth has never been about quick gains—it has always been rooted in discipline, patience, and preservation across generations. From traditional household savings to structured financial planning, the journey of money management in our country has evolved, yet its core principles remain unchanged.',
+    'Finocube brings Elevest’s complete distribution platform to clients and partners who want every financial product in one place — Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — with modern tools and transparent support.',
   origin:
-    'It is from this very philosophy that Investrategy was born. Established in 2008, during one of the most turbulent phases in global financial history, Investrategy began its journey under the guidance of Mr. Ashish Srivastava, an AMFI-registered advisor. The foundation was built on a simple yet enduring belief—true wealth is not created in moments of market euphoria, but through discipline across market cycles.',
-  evolution:
-    'Over the years, Investrategy has witnessed and navigated multiple market phases—from the global financial crisis of 2008 and the prolonged stagnation between 2011–2014, to the uncertainty of COVID-19 and geopolitical disruptions such as the Russia–Ukraine conflict. Each phase has reinforced our conviction in disciplined investing and strengthened our evolution into a structured, process-driven, and compliance-focused investment system.',
+    'As an Elevest franchise partner, Finocube combines local guidance with Elevest’s technology: unified dashboards, UPI-mandate SIPs, earnings visibility, and one-click product pitching — so growing a financial practice feels simple and professional.',
   today:
-    'Investrategy is empanelled with leading Asset Management Companies (AMCs) registered in India, enabling access to a comprehensive range of mutual fund solutions across equity, debt, and hybrid categories.',
+    'Whether you are building long-term wealth for your household or expanding your advisory business, Finocube offers goal-aligned investing expertise alongside Elevest’s multi-product distribution infrastructure.',
   closing:
-    'At its core, Investrategy is not just about investing in mutual funds—it is about building financial discipline, fostering trust, and nurturing long-term relationships that endure beyond market cycles.',
+    'At its core, Finocube is about disciplined planning, product choice, and enduring relationships — powered by Elevest, delivered with personal care.',
 };
 
 export const philosophyBlend = [
-  'The trust and personalisation of a traditional advisor',
-  'The discipline and consistency of a system-driven investment approach',
+  'The trust and personalisation of a local franchise partner',
+  'The scale and technology of Elevest’s distribution platform',
 ];
 
 export const approachPoints = [
@@ -53,8 +54,8 @@ export const approachPoints = [
   },
   {
     icon: '📊',
-    title: 'Risk-based portfolios',
-    text: 'Constructing portfolios based on risk profiling and investment horizon, not market noise.',
+    title: 'Multi-product portfolios',
+    text: 'Mutual Funds, FDs, Bonds, and Loans — the right mix for risk, horizon, and life stage.',
   },
   {
     icon: '🌊',
@@ -64,52 +65,133 @@ export const approachPoints = [
   {
     icon: '🛡️',
     title: 'Compliance & transparency',
-    text: 'Upholding the highest standards of regulatory compliance and transparency in every interaction.',
+    text: 'Upholding regulatory standards and transparent processes in every client interaction.',
   },
 ];
 
 export const vision =
-  'To empower every household across Bharat with the knowledge, discipline, and access to build long-term wealth through informed mutual fund investing.';
+  'To help every household and partner grow with clarity — one platform, every financial product, and guidance that lasts beyond market cycles.';
 
 export const goal =
-  'To build a scalable, technology-driven investment system that delivers disciplined, compliant, and goal-oriented mutual fund solutions to every client.';
+  'To deliver Elevest-powered distribution with Finocube’s local expertise: disciplined, compliant, and goal-oriented solutions for every client.';
 
 export const missionPillars = [
   {
     number: '01',
     title: 'Client-Centric, Goal-Based Planning',
-    text: 'Personalized mutual fund solutions aligned with each client\'s financial goals, risk profile, and investment horizon through structured planning frameworks.',
+    text: 'Personalized solutions aligned with each client’s financial goals, risk profile, and investment horizon.',
   },
   {
     number: '02',
-    title: 'Technology-Driven Investment Systems',
-    text: 'Leveraging data, automation, and digital tools to ensure consistent portfolio construction, monitoring, and rebalancing across all client segments.',
+    title: 'Complete Product Distribution',
+    text: 'Mutual Funds, Fixed Deposits, Bonds, and Personal Loans on one platform — more ways to serve every need.',
   },
   {
     number: '03',
-    title: 'Financial Literacy & Investor Awareness',
-    text: 'Actively promoting financial education, empowering investors across Bharat to make informed and disciplined investment decisions.',
+    title: 'Technology-Driven Experience',
+    text: 'Unified dashboards, instant UPI SIPs, payout visibility, and WhatsApp pitch sharing — built for modern India.',
   },
   {
     number: '04',
-    title: 'Compliance, Transparency & Ethics',
-    text: 'Strict adherence to regulatory standards, ensuring complete transparency, audit readiness, and ethical conduct in every client interaction.',
+    title: 'Financial Literacy & Awareness',
+    text: 'Education that empowers investors and partners to make informed, confident decisions.',
   },
   {
     number: '05',
-    title: 'Long-Term Discipline & Relationships',
-    text: 'Fostering a culture of disciplined investing and building enduring client relationships focused on long-term wealth creation rather than short-term market movements.',
+    title: 'Compliance, Transparency & Ethics',
+    text: 'Strict adherence to regulatory standards with clear communication in every interaction.',
   },
 ];
 
-export const marketTimeline = [
-  { year: '2008', event: 'Founded during the global financial crisis — discipline over euphoria.' },
-  { year: '2011–14', event: 'Navigated prolonged market stagnation with a steady, process-driven approach.' },
-  { year: '2020', event: 'Guided clients through COVID-19 uncertainty with clarity and calm.' },
-  { year: '2022+', event: 'Adapted strategies through geopolitical disruptions including Russia–Ukraine conflict.' },
+export const products = [
+  {
+    title: 'Mutual Funds',
+    description:
+      'Offer SIP, Lumpsum, and Switch transactions on AMFI-registered sub-broker infrastructure, and build long-term trail income.',
+    tag: 'Invest',
+  },
+  {
+    title: 'Bonds',
+    description:
+      'Distribute SEBI-regulated Bonds and offer clients attractive returns from AAA-rated Corporate and Government Issuers.',
+    tag: 'Income',
+  },
+  {
+    title: 'Fixed Deposit',
+    description:
+      'Offer curated FDs from leading NBFCs at competitive interest rates — a low-friction, high-trust product to grow your book.',
+    tag: 'Stability',
+  },
+  {
+    title: 'Personal Loans',
+    description:
+      'Refer instant Personal Loans with minimal documentation and earn a flat payout on every successful disbursement.',
+    tag: 'Credit',
+  },
 ];
 
-export const promises = approachPoints;
+/** Retirement Freedom Suite — Golden Horizon planners */
+export const goldenHorizon = {
+  suiteName: 'Retirement Freedom Suite',
+  brand: 'Golden Horizon',
+  url: 'https://aseempsri.github.io/Golden-Horizon/',
+  repoUrl: 'https://github.com/aseempsri/Golden-Horizon',
+  guideUrl: 'https://aseempsri.github.io/Golden-Horizon/#/guide',
+  tagline: 'Two planners under one roof — find when you can stop depending on salary.',
+  note: 'Both planners use liquid corpus only. Rental income, pension, business income, and non-liquid assets are excluded.',
+};
+
+export const goldenHorizonProducts = [
+  {
+    id: 'freedom-meridian',
+    title: 'Freedom Meridian',
+    theme: 'Gold',
+    tag: 'Retirement Age',
+    description:
+      'Discover the earliest age you can fully retire on your liquid corpus — with portfolio splits across FD, savings, equity stocks, equity MF, and debt MF.',
+    highlights: [
+      'Pre-retirement salary surplus modelling',
+      'Inflation-adjusted post-retirement withdrawals',
+      'Own home vs rental, cars & travel plans',
+      'Nominee legacy projection at age 90',
+    ],
+    href: 'https://aseempsri.github.io/Golden-Horizon/',
+  },
+  {
+    id: 'estate-sovereign',
+    title: 'Estate Sovereign',
+    theme: 'Teal & Copper',
+    tag: 'Salary-Free Living',
+    description:
+      'Plan inflation-proof passive income, three-bucket savings, and a full estate lifestyle — then find the earliest age to eliminate salary dependency.',
+    highlights: [
+      'Passive income floor with 5%+ inflation protection',
+      'Inflation, contingency & leisure savings buckets',
+      'Staff, holidays & inheritance-trip lifestyle planning',
+      'Periodic replacements: car, white goods, furnishings',
+    ],
+    href: 'https://aseempsri.github.io/Golden-Horizon/',
+  },
+];
+
+export const platformFeatures = [
+  {
+    title: 'Unified Dashboard',
+    description: 'SIP, FD, Bond & Loan on one screen — manage your entire book effortlessly.',
+  },
+  {
+    title: 'UPI-mandate SIP in 60 Sec',
+    description: 'Register SIPs via UPI mandate instantly — less friction, faster onboarding.',
+  },
+  {
+    title: 'Earnings & Payout Visibility',
+    description: 'Track earnings and payout status with clear, real-time visibility.',
+  },
+  {
+    title: 'One-click Pitch Sharing',
+    description: 'Pitch products via WhatsApp and share curated opportunities in one tap.',
+  },
+];
 
 export const lifeStages = [
   {
@@ -117,7 +199,7 @@ export const lifeStages = [
     title: 'Growing Years',
     age: '35–54',
     description:
-      'Building wealth with discipline — SIP strategies, family protection, and goal-based portfolios designed for professionals and business owners across Bharat.',
+      'Building wealth with discipline — SIP strategies, family protection, and goal-based portfolios designed for professionals and business owners.',
     icon: '🌱',
     focus: ['SIP & goal-based investing', 'Family protection planning', 'Tax-efficient portfolios'],
   },
@@ -126,7 +208,7 @@ export const lifeStages = [
     title: 'Transitioning Years',
     age: '55–69',
     description:
-      'Approaching retirement with a clear plan — balancing equity, debt, and hybrid mutual funds for emotional and financial confidence.',
+      'Approaching retirement with a clear plan — balancing equity, debt, FDs, and hybrid solutions for emotional and financial confidence.',
     icon: '🌿',
     focus: ['Retirement corpus planning', 'Balanced equity-debt mix', 'Income & stability focus'],
   },
@@ -151,31 +233,31 @@ export const services = [
   {
     title: 'SIP & Systematic Investing',
     description:
-      'Disciplined SIP strategies that harness the power of rupee-cost averaging — building wealth steadily across market cycles, not just during euphoria.',
+      'Disciplined SIP strategies with UPI-mandate convenience — building wealth steadily across market cycles.',
     tag: 'Invest',
+  },
+  {
+    title: 'FDs, Bonds & Loans',
+    description:
+      'Expand beyond mutual funds — curated Fixed Deposits, SEBI-regulated Bonds, and Personal Loan referrals for complete client coverage.',
+    tag: 'Products',
   },
   {
     title: 'Portfolio Construction & Rebalancing',
     description:
-      'Technology-driven portfolio construction, monitoring, and rebalancing — ensuring your investments stay aligned with your goals as markets evolve.',
+      'Technology-driven portfolio construction, monitoring, and rebalancing — keeping investments aligned as markets evolve.',
     tag: 'Manage',
   },
   {
     title: 'Financial Literacy & Awareness',
     description:
-      'Investor education programs that empower you to make informed decisions — because an educated investor is a confident investor.',
+      'Investor education that empowers informed decisions — because an educated investor is a confident investor.',
     tag: 'Learn',
   },
   {
-    title: 'Compliance & Transparent Operations',
+    title: 'Partner Platform & Support',
     description:
-      'Full regulatory compliance, transparent fee structures, and audit-ready processes — so you always know exactly where you stand.',
-    tag: 'Trust',
-  },
-  {
-    title: 'Long-Term Relationship Guidance',
-    description:
-      'Enduring partnerships focused on wealth creation beyond market cycles — guiding you with clarity and protecting you from impulsive decisions.',
+      'Elevest-powered tools for client management, payouts, and product pitching — with Finocube’s local franchise support.',
     tag: 'Partner',
   },
 ];
@@ -183,23 +265,23 @@ export const services = [
 export const testimonials = [
   {
     quote:
-      'What impressed us most was their discipline during market downturns. While others panicked in 2020, Investrategy kept us focused on our long-term goals — and we\'re grateful for that steady hand.',
+      'What impressed us most was the clarity across products. Mutual funds, FDs, and bonds in one place — and guidance that stayed calm when markets were noisy.',
     name: 'Rajesh & Sunita V.',
     detail: 'SIP Investors',
     emoji: '🙏',
   },
   {
     quote:
-      'Mr. Srivastava took time to understand our family\'s goals before suggesting anything. No pressure, complete transparency — exactly the kind of advisor we were looking for.',
+      'The team took time to understand our family’s goals before suggesting anything. No pressure, complete transparency — exactly the kind of partner we were looking for.',
     name: 'Amit K.',
     detail: 'Goal-Based Planning',
     emoji: '💚',
   },
   {
     quote:
-      'Having been with them since 2012, we\'ve seen multiple market cycles. Their process-driven approach and AMFI compliance give us real peace of mind.',
+      'Having access to Elevest’s platform through Finocube made onboarding and SIPs remarkably smooth. The process-driven approach gives us real peace of mind.',
     name: 'Priya M.',
-    detail: 'Long-Term Partner · Since 2012',
+    detail: 'Long-Term Partner',
     emoji: '🌟',
   },
 ];
@@ -212,23 +294,23 @@ export const processSteps = [
   },
   {
     step: '02',
-    title: 'Design Your Portfolio',
-    description: 'Construct a goal-aligned mutual fund portfolio across equity, debt, and hybrid categories.',
+    title: 'Choose Your Products',
+    description: 'Select from Mutual Funds, FDs, Bonds, and Loans — matched to your needs and risk profile.',
   },
   {
     step: '03',
     title: 'Compliance & KYC',
-    description: 'Complete all KYC formalities and regulatory registrations — fully compliant, fully transparent.',
+    description: 'Complete KYC formalities and regulatory registrations — fully compliant, fully transparent.',
   },
   {
     step: '04',
-    title: 'Execute with Discipline',
-    description: 'Implement your strategy through SIPs or lump-sum investments — online or offline, with clear guidance.',
+    title: 'Execute Digitally',
+    description: 'Implement via SIPs, lump-sum, or product applications — with clear, guided digital flows.',
   },
   {
     step: '05',
     title: 'Monitor & Rebalance',
-    description: 'Technology-driven portfolio monitoring and rebalancing to keep you aligned with your goals.',
+    description: 'Technology-driven monitoring and rebalancing to keep you aligned with your goals.',
   },
   {
     step: '06',
@@ -250,13 +332,13 @@ export const processSteps = [
 export const calculators = [
   { id: 'sip', name: 'SIP Calculator', desc: 'See how disciplined monthly investing builds wealth over time.' },
   { id: 'retirement', name: 'Retirement Calculator', desc: 'Plan the retirement you deserve with clarity and confidence.' },
-  { id: 'education', name: 'Education Calculator', desc: 'Prepare for your child\'s education goals systematically.' },
+  { id: 'education', name: 'Education Calculator', desc: 'Prepare for your child’s education goals systematically.' },
   { id: 'lumpsum', name: 'Lumpsum Calculator', desc: 'Understand what a one-time investment can grow into.' },
   { id: 'emi', name: 'EMI Calculator', desc: 'Plan loans wisely — keep room for your investment goals.' },
   { id: 'delay', name: 'Cost of Delay', desc: 'See why starting your SIP today makes a real difference.' },
   { id: 'hlv', name: 'Human Life Value', desc: 'Calculate the life cover your family needs.' },
   { id: 'topup', name: 'SIP Top-Up', desc: 'Grow your SIP as your income grows each year.' },
-  { id: 'marriage', name: 'Marriage Calculator', desc: 'Plan and save for life\'s celebrations without stress.' },
+  { id: 'marriage', name: 'Marriage Calculator', desc: 'Plan and save for life’s celebrations without stress.' },
 ];
 
 export const resources = [
@@ -271,15 +353,15 @@ export const resources = [
     category: 'SIP',
   },
   {
+    title: 'FDs, Bonds & Loans Explained',
+    description: 'How Fixed Deposits, Bonds, and Personal Loans fit into a complete financial plan.',
+    category: 'Products',
+  },
+  {
     title: 'Risk Profiling Explained',
     description: 'How we match your portfolio to your comfort with risk and your time horizon.',
     category: 'Planning',
     href: '#documents',
-  },
-  {
-    title: 'Retirement Planning Guide',
-    description: 'A structured approach to building the retirement corpus you need.',
-    category: 'Retirement',
   },
 ];
 
@@ -328,7 +410,7 @@ export const clientDocuments: ClientDocument[] = [
     id: 'risk-profiler',
     title: 'Client Risk Profiling Form',
     description:
-      'A structured questionnaire covering your financial profile, income, dependents, goals, and risk tolerance — used to determine a suitable investment strategy.',
+      'A structured questionnaire covering your financial profile, income, dependents, goals, and risk tolerance — used to determine a suitable investment approach.',
     howToUse:
       'Download, fill in your details, and complete all sections honestly. Submit the signed form to your advisor before your first investment recommendation.',
     file: publicAsset('downloads/risk-profiler.docx'),
@@ -338,9 +420,9 @@ export const clientDocuments: ClientDocument[] = [
     id: 'suitability-framework',
     title: 'Product Suitability Framework',
     description:
-      'Our internal guide explaining how we assess whether a mutual fund product fits your age, income, and risk profile — including when a product may be marked unsuitable.',
+      'Our guide explaining how we assess whether a product fits your age, income, and risk profile — including when a product may be marked unsuitable.',
     howToUse:
-      'Read this to understand how Investrategy evaluates product suitability and why certain schemes may require additional declarations before proceeding.',
+      'Read this to understand how Finocube evaluates product suitability and why certain schemes may require additional declarations before proceeding.',
     file: publicAsset('downloads/product-suitability-framework.docx'),
     category: 'suitability',
   },
@@ -368,7 +450,7 @@ export const clientDocuments: ClientDocument[] = [
     id: 'data-privacy-sop',
     title: 'Data Sharing & Privacy Compliance SOP',
     description:
-      'Our standard operating procedure for collecting, classifying, storing, and sharing client data in compliance with AMFI and SEBI requirements.',
+      'Our standard operating procedure for collecting, classifying, storing, and sharing client data in compliance with applicable regulations.',
     howToUse:
       'Review to see how your KYC, financial, and client data is handled — including who can access it and when it may be shared with AMCs or regulators.',
     file: publicAsset('downloads/data-privacy-sop.docx'),
@@ -390,7 +472,7 @@ export const clientDocuments: ClientDocument[] = [
     description:
       'The mandatory practices our team follows when handling your data — including access controls, security measures, and breach reporting protocols.',
     howToUse:
-      'Review for transparency on how Investrategy staff are required to protect your information and respect your data rights.',
+      'Review for transparency on how Finocube staff are required to protect your information and respect your data rights.',
     file: publicAsset('downloads/staff-data-privacy-sop.docx'),
     category: 'privacy',
   },
@@ -418,11 +500,38 @@ export const clientDocuments: ClientDocument[] = [
 
 export const navLinks = [
   { href: '#about', label: 'About' },
-  { href: '#stages', label: 'Life Stages' },
+  { href: '#products', label: 'Products' },
+  { href: '#platform', label: 'Platform' },
   { href: '#services', label: 'Services' },
-  { href: '#process', label: 'Process' },
-  { href: '#documents', label: 'Forms' },
-  { href: '#calculators', label: 'Tools' },
-  { href: '#stories', label: 'Stories' },
+  { href: '#retirement', label: 'Retirement' },
+  { href: '#calculators', label: 'Calculators' },
   { href: '#contact', label: 'Contact' },
+];
+
+export const faqs = [
+  {
+    question: 'Is Finocube part of Elevest?',
+    answer:
+      'Yes. Finocube is an Elevest franchise partner. You get Elevest’s distribution platform and product suite, delivered with Finocube’s local support.',
+  },
+  {
+    question: 'What products can I access through Finocube?',
+    answer:
+      'Mutual Funds, Fixed Deposits (FDs), Corporate Bonds, and Personal Loans — the same four revenue streams available on Elevest.',
+  },
+  {
+    question: 'Is there a joining fee?',
+    answer:
+      'No. Joining as a partner through the Elevest network is free. There are no registration or joining fees.',
+  },
+  {
+    question: 'Can I start without an ARN?',
+    answer:
+      'You can start distributing Fixed Deposits, Corporate Bonds, and Personal Loans from day one. Elevest helps partners prepare for NISM certification and AMFI registration to distribute Mutual Funds.',
+  },
+  {
+    question: 'What is the Retirement Freedom Suite?',
+    answer:
+      'Golden Horizon includes two planners: Freedom Meridian (earliest full retirement age on liquid corpus) and Estate Sovereign (inflation-proof passive income and salary-free estate living). Open them from the Retirement section on this site.',
+  },
 ];

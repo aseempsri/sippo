@@ -1,34 +1,40 @@
 :root {
-  /* Brand palette — from main logo */
-  --bg-primary: #f7f8fa;
+  /* Elevest-inspired Finocube palette */
+  --bg-primary: #f5faf8;
   --bg-secondary: #ffffff;
-  --bg-elevated: #eef1f4;
-  --glass-bg: rgba(255, 255, 255, 0.78);
-  --glass-border: rgba(44, 62, 80, 0.1);
+  --bg-elevated: #ebf7f4;
+  --bg-hero-1: #2f9b83;
+  --bg-hero-2: #248d78;
+  --bg-hero-3: #087062;
+  --glass-bg: rgba(255, 255, 255, 0.82);
+  --glass-border: rgba(0, 74, 65, 0.1);
   --glass-highlight: rgba(255, 255, 255, 0.95);
-  --text-primary: #2c3e50;
-  --text-secondary: rgba(44, 62, 80, 0.78);
-  --text-muted: rgba(44, 62, 80, 0.55);
-  --accent: #76ba43;
-  --accent-dim: #5d9031;
-  --accent-light: #9bcb55;
-  --accent-warm: #b59a57;
-  --accent-glow: rgba(118, 186, 67, 0.32);
-  --gold-glow: rgba(181, 154, 87, 0.22);
-  --warm-glow: rgba(181, 154, 87, 0.15);
-  --charcoal: #2c3e50;
-  --shadow-soft: rgba(44, 62, 80, 0.08);
-  --shadow-medium: rgba(44, 62, 80, 0.12);
-  --accent-08: rgba(118, 186, 67, 0.08);
-  --accent-10: rgba(118, 186, 67, 0.1);
-  --accent-12: rgba(118, 186, 67, 0.12);
-  --accent-16: rgba(118, 186, 67, 0.16);
-  --accent-25: rgba(118, 186, 67, 0.25);
-  --gold-10: rgba(181, 154, 87, 0.1);
+  --text-primary: #202224;
+  --text-secondary: rgba(32, 34, 36, 0.78);
+  --text-muted: rgba(32, 34, 36, 0.55);
+  --text-on-dark: #ffffff;
+  --accent: #004a41;
+  --accent-dim: #003830;
+  --accent-light: #2f9b83;
+  --accent-warm: #fdca40;
+  --accent-warm-deep: #f8a537;
+  --accent-glow: rgba(0, 74, 65, 0.28);
+  --gold-glow: rgba(253, 202, 64, 0.35);
+  --warm-glow: rgba(248, 165, 55, 0.2);
+  --charcoal: #202224;
+  --link: #007fff;
+  --shadow-soft: rgba(0, 74, 65, 0.08);
+  --shadow-medium: rgba(0, 74, 65, 0.14);
+  --accent-08: rgba(47, 155, 131, 0.08);
+  --accent-10: rgba(47, 155, 131, 0.1);
+  --accent-12: rgba(47, 155, 131, 0.12);
+  --accent-16: rgba(47, 155, 131, 0.16);
+  --accent-25: rgba(0, 74, 65, 0.25);
+  --gold-10: rgba(253, 202, 64, 0.12);
   --radius-sm: 12px;
   --radius-md: 20px;
   --radius-lg: 32px;
-  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 *,
@@ -87,10 +93,10 @@ img {
 }
 
 .glass-strong {
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(40px) saturate(200%);
   -webkit-backdrop-filter: blur(40px) saturate(200%);
-  border: 1px solid rgba(44, 62, 80, 0.08);
+  border: 1px solid rgba(0, 74, 65, 0.08);
   box-shadow:
     0 16px 48px var(--shadow-medium),
     inset 0 1px 0 rgba(255, 255, 255, 1);
@@ -143,7 +149,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent-dim);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -171,16 +177,16 @@ img {
   padding: 0.875rem 1.75rem;
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dim) 100%);
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9375rem;
-  border-radius: 980px;
+  border-radius: 10px;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   box-shadow: 0 4px 20px var(--accent-glow);
 }
 
 .btn-primary:hover {
-  transform: scale(1.04) translateY(-1px);
-  box-shadow: 0 10px 32px var(--accent-glow), 0 0 20px var(--gold-glow);
+  transform: scale(1.03) translateY(-1px);
+  box-shadow: 0 10px 32px var(--accent-glow), 0 0 16px var(--gold-glow);
 }
 
 .btn-secondary {
@@ -189,10 +195,10 @@ img {
   gap: 0.5rem;
   padding: 0.875rem 1.75rem;
   background: var(--bg-secondary);
-  color: var(--text-primary);
-  font-weight: 500;
+  color: var(--accent);
+  font-weight: 600;
   font-size: 0.9375rem;
-  border-radius: 980px;
+  border-radius: 10px;
   border: 1px solid var(--glass-border);
   box-shadow: 0 2px 12px var(--shadow-soft);
   transition: all 0.3s ease;
@@ -225,10 +231,10 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(44, 62, 80, 0.2);
+  background: rgba(0, 74, 65, 0.25);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-dim);
+  background: var(--accent);
 }

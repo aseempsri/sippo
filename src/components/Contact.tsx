@@ -24,10 +24,10 @@ export default function Contact() {
             transition={{ duration: 0.7 }}
           >
             <p className="section-label">Let&apos;s Connect</p>
-            <h2 className="section-title">Ready for your money working smarter?</h2>
+            <h2 className="section-title">Ready to grow with Finocube?</h2>
             <p className="section-subtitle">
-              Book a complimentary consultation to have a conversation about your goals, your
-              risk profile, and the life you&apos;re building toward.
+              Book a complimentary conversation about your goals, product needs, or partner
+              onboarding on the Elevest-powered platform.
             </p>
 
             <div className="contact__details">
@@ -50,8 +50,7 @@ export default function Contact() {
               <div className="contact__detail glass">
                 <span className="contact__detail-icon">🛡️</span>
                 <div>
-                  <strong>AMFI Registration</strong>
-                  <p className="contact__arn">ARN No. {company.arn}</p>
+                  <strong>Elevest Franchise Partner</strong>
                   <p>{company.amfiNote}</p>
                 </div>
               </div>
@@ -69,12 +68,15 @@ export default function Contact() {
               <div className="contact__success">
                 <span className="contact__success-icon">🎉</span>
                 <h3>Wonderful — we can&apos;t wait to meet you!</h3>
-                <p>We&apos;ll reach out shortly to schedule your complimentary consultation. Your disciplined investing journey begins here.</p>
+                <p>
+                  We&apos;ll reach out shortly to schedule your conversation. Your Finocube journey
+                  begins here.
+                </p>
                 <p className="contact__privacy">{company.privacyNote}</p>
               </div>
             ) : (
               <>
-                <h3>Book Your Free Consultation</h3>
+                <h3>Get in Touch</h3>
                 <p className="contact__privacy">{company.privacyNote}</p>
                 <div className="contact__form-row">
                   <input type="text" placeholder="First Name" required />
@@ -84,14 +86,15 @@ export default function Contact() {
                 <input type="tel" placeholder="Phone Number" />
                 <select defaultValue="">
                   <option value="" disabled>What brings you here?</option>
-                  <option>Goal-Based Mutual Fund Planning</option>
-                  <option>SIP & Systematic Investing</option>
-                  <option>Retirement Planning</option>
-                  <option>Portfolio Review & Rebalancing</option>
-                  <option>Financial Literacy / Awareness</option>
+                  <option>Mutual Funds / SIP</option>
+                  <option>Fixed Deposits</option>
+                  <option>Bonds</option>
+                  <option>Personal Loans</option>
+                  <option>Partner / Franchise Onboarding</option>
+                  <option>Portfolio Review</option>
                   <option>Other</option>
                 </select>
-                <textarea placeholder="Tell us about your financial goals..." rows={4} />
+                <textarea placeholder="Tell us about your goals..." rows={4} />
                 <button type="submit" className="btn-primary contact__submit">
                   Let&apos;s Begin →
                 </button>

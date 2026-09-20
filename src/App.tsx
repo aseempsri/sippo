@@ -7,13 +7,17 @@ import MobileHeader from './components/mobile/MobileHeader';
 import MobileFloatingActions from './components/mobile/MobileFloatingActions';
 import Hero from './components/Hero';
 import About from './components/About';
+import Products from './components/Products';
+import Platform from './components/Platform';
 import LifeStages from './components/LifeStages';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Process from './components/Process';
 import ClientDocuments from './components/ClientDocuments';
+import GoldenHorizon from './components/GoldenHorizon';
 import Calculators from './components/Calculators';
 import Resources from './components/Resources';
+import Faq from './components/Faq';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
@@ -44,13 +48,17 @@ export default function App() {
           {isMobile && mobileReady && <MobileHeader />}
           <Hero isMobileReady={isMobile && mobileReady} />
           <About />
+          <Products />
+          <Platform />
           <LifeStages />
           <Services />
           <Testimonials />
           <Process />
           <ClientDocuments />
+          <GoldenHorizon />
           <Calculators />
           <Resources />
+          <Faq />
           <Contact />
         </main>
         )}

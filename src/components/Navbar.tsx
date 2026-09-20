@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { navLinks } from '../data/content';
-import brandLogo from '../assets/main logo_-Photoroom.png';
+import brandLogo from '../assets/finocube-logo.svg';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -23,7 +23,7 @@ export default function Navbar() {
     >
       <div className="navbar__inner container">
         <a href="#" className="navbar__logo">
-          <img src={brandLogo} alt="investrategy" />
+          <img src={brandLogo} alt="Finocube" />
         </a>
 
         <ul className="navbar__links">
@@ -36,7 +36,7 @@ export default function Navbar() {
 
         <div className="navbar__actions">
           <a href="#contact" className="btn-primary navbar__cta">
-            Free Consultation
+            Get Started
           </a>
           <button
             className="navbar__menu-btn"
@@ -62,7 +62,7 @@ export default function Navbar() {
               </a>
             ))}
             <a href="#contact" className="btn-primary" onClick={() => setMenuOpen(false)}>
-              Free Consultation
+              Get Started
             </a>
           </motion.div>
         )}
