@@ -8,7 +8,7 @@ export const SHARE_IMAGE_FILE = 'og-share.png';
  * Bump when replacing the share image file so crawlers refetch even on the same commit.
  * Combined with the git short hash at build time for automatic deploy cache busting.
  */
-export const SHARE_IMAGE_REVISION = '1';
+export const SHARE_IMAGE_REVISION = '2';
 
 export const SITE_TITLE =
   'Sippo | Expert-Led, Smart, Swift & Secure Financial Growth';
