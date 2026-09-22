@@ -2,11 +2,10 @@ import { publicAsset } from '../utils/paths';
 
 export const company = {
   name: 'Sippo',
-  domain: 'sippo.com',
   partnerOf: 'Elevest',
   partnerUrl: 'https://www.elevest.in/',
   phone: '+91 92117 59888',
-  email: 'hello@sippo.com',
+  email: '',
   tagline: 'One Platform. Every Financial Product.',
   amfiNote:
     'Mutual fund investments are offered through AMFI-registered distribution infrastructure. Mutual Fund Investments are subject to market risks.',

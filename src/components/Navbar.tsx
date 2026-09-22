@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { navLinks } from '../data/content';
-import brandLogo from '../assets/sippo-logo.svg';
+import brandLogo from '../assets/sippo-logo-light.png';
 import './Navbar.css';
 
 export default function Navbar() {

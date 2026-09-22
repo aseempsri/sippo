@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { navLinks } from '../../data/content';
-import brandLogo from '../../assets/sippo-logo.svg';
+import brandLogo from '../../assets/sippo-logo-light.png';
 import './MobileHeader.css';
 
 export default function MobileHeader() {

@@ -1,6 +1,6 @@
 # Sippo
 
-Client-focused financial growth website for [sippo.com](https://sippo.com).
+Client-focused financial growth website.
 
 Expert-led guidance across Mutual Funds, FDs, Bonds, and Loans — smart, swift, and secure.
 
@@ -18,10 +18,16 @@ npm run build
 npm run preview
 ```
 
-## Live site (GitHub Pages)
+## Live site
 
 Every push to `main` deploys automatically via `.github/workflows/deployment.yaml`.
 
-**URL:** https://aseempsri.github.io/sippo/
+**Custom domain:** https://sippo.in/
 
-Enable Pages once in repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+**GitHub Pages fallback:** https://aseempsri.github.io/sippo/
+
+### Custom domain setup
+
+1. In Hostinger DNS for `sippo.in`, point apex `A` records to GitHub Pages IPs and `www` CNAME to `aseempsri.github.io`.
+2. In GitHub → **Settings → Pages**, set custom domain to `sippo.in` and enable **Enforce HTTPS** after DNS propagates.
+3. `public/CNAME` in this repo is already set to `sippo.in`.

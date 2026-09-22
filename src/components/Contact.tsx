@@ -39,13 +39,15 @@ export default function Contact() {
                     <p>{company.phone}</p>
                   </div>
                 </div>
-                <div className="contact__detail glass">
-                  <span className="contact__detail-icon">✉️</span>
-                  <div>
-                    <strong>Email</strong>
-                    <p>{company.email}</p>
+                {company.email ? (
+                  <div className="contact__detail glass">
+                    <span className="contact__detail-icon">✉️</span>
+                    <div>
+                      <strong>Email</strong>
+                      <p>{company.email}</p>
+                    </div>
                   </div>
-                </div>
+                ) : null}
               </div>
               <div className="contact__detail glass">
                 <span className="contact__detail-icon">🛡️</span>

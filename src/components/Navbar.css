@@ -38,8 +38,10 @@
 }
 
 .navbar__logo img {
-  height: 40px;
+  height: 44px;
   width: auto;
+  max-width: min(168px, 42vw);
+  object-fit: contain;
   filter: drop-shadow(0 2px 8px var(--shadow-soft));
 }
 

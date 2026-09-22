@@ -53,8 +53,29 @@
   filter: drop-shadow(0 6px 20px var(--accent-25));
 }
 
+.mobile-loader--brand {
+  background:
+    radial-gradient(70% 78% at 50% 40%, #2f9b83 0%, #248d78 45%, #087062 100%);
+}
+
+.mobile-loader--brand .mobile-loader__tagline {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.mobile-loader--brand .mobile-loader__progress-label {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.mobile-loader--brand .mobile-loader__track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.mobile-loader--brand .mobile-loader__bar {
+  background: linear-gradient(90deg, #3abf3a 0%, #fdca40 100%);
+}
+
 .mobile-loader__logo-mark {
-  width: min(260px, 72vw);
+  width: min(280px, 78vw);
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -66,7 +87,7 @@
   display: block;
   object-fit: contain;
   object-position: center;
-  filter: drop-shadow(0 2px 8px var(--shadow-soft));
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.25));
 }
 
 .mobile-loader__tagline {

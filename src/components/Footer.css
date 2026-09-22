@@ -11,8 +11,10 @@
 }
 
 .footer__brand img {
-  height: 36px;
+  height: 42px;
   width: auto;
+  max-width: 180px;
+  object-fit: contain;
   margin-bottom: 0.75rem;
   filter: drop-shadow(0 2px 8px var(--shadow-soft));
 }

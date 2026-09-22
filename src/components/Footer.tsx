@@ -1,5 +1,5 @@
 import { company } from '../data/content';
-import brandLogo from '../assets/sippo-logo.svg';
+import brandLogo from '../assets/sippo-logo-light.png';
 import './Footer.css';
 
 export default function Footer() {

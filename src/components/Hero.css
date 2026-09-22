@@ -7,8 +7,11 @@
   overflow: hidden;
 }
 
-.hero--elevest {
-  background: transparent;
+.hero--elevest .hero__brand-mark {
+  width: min(220px, 55vw);
+  height: auto;
+  margin-bottom: 1.25rem;
+  filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.2));
 }
 
 .hero__gradient {

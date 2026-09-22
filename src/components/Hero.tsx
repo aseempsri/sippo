@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import Scene3D from './Scene3D';
 import TypewriterTitle from './TypewriterTitle';
-import { company, heroBadges, stats } from '../data/content';
+import { heroBadges, stats } from '../data/content';
+import brandLogoDark from '../assets/sippo-logo-dark.png';
 import './Hero.css';
 
 interface HeroProps {
@@ -23,9 +24,15 @@ export default function Hero({ isMobileReady = false }: HeroProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            <p className="section-label hero__eyebrow">
-              {company.name} · Expert-Led Growth · {company.domain}
-            </p>
+            <motion.img
+              src={brandLogoDark}
+              alt="Sippo"
+              className="hero__brand-mark"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.15 }}
+            />
+            <p className="section-label hero__eyebrow">Expert-Led Growth</p>
             <TypewriterTitle />
             <motion.div
               className="hero__badges"

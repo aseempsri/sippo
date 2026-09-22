@@ -42,8 +42,8 @@ function injectSocialMeta(html: string): string {
   return html.replace('</head>', `${tags}\n  </head>`)
 }
 
-// https://vite.dev/config/
-export default defineConfig(({ mode }) => ({
+// Custom domain (sippo.in) serves from site root
+export default defineConfig({
   plugins: [
     react(),
     {
@@ -51,6 +51,5 @@ export default defineConfig(({ mode }) => ({
       transformIndexHtml: injectSocialMeta,
     },
   ],
-  // GitHub Pages project site: https://aseempsri.github.io/sippo/
-  base: mode === 'production' ? '/sippo/' : '/',
-}))
+  base: '/',
+})

@@ -1,7 +1,7 @@
 /** Production site URL (no trailing slash). */
-export const SITE_URL = 'https://aseempsri.github.io/sippo';
+export const SITE_URL = 'https://sippo.in';
 
-/** Public-folder filename served at /sippo/og-share.png */
+/** Public-folder filename served at /og-share.png */
 export const SHARE_IMAGE_FILE = 'og-share.png';
 
 /**

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import brandLogo from '../../assets/sippo-logo.svg';
+import brandLogo from '../../assets/sippo-logo-dark.png';
 import { company } from '../../data/content';
 import './MobileLoader.css';
 
@@ -39,7 +39,7 @@ export default function MobileLoader({ onComplete }: MobileLoaderProps) {
 
   return (
     <motion.div
-      className="mobile-loader"
+      className="mobile-loader mobile-loader--brand"
       data-exiting={exiting ? 'true' : 'false'}
       initial={{ opacity: 1 }}
       animate={{ opacity: exiting ? 0 : 1 }}
