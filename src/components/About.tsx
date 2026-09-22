@@ -27,7 +27,7 @@ export default function About() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <p className="section-label">About Finocube</p>
+          <p className="section-label">About Sippo</p>
           <h2 className="section-title">One-stop growth. Built around you.</h2>
           <blockquote className="about__pull-quote">
             &ldquo;{openingQuote}&rdquo;

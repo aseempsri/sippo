@@ -20,7 +20,7 @@ export default function Products() {
           <h2 className="section-title">One Platform. Four Ways to Grow.</h2>
           <p className="section-subtitle">
             Mutual Funds, Bonds, Fixed Deposits, and Personal Loans — everything you need in one
-            place, guided by Finocube.
+            place, guided by Sippo.
           </p>
         </motion.div>
 

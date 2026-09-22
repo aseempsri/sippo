@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { navLinks } from '../data/content';
-import brandLogo from '../assets/finocube-logo.svg';
+import brandLogo from '../assets/sippo-logo.svg';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -23,7 +23,7 @@ export default function Navbar() {
     >
       <div className="navbar__inner container">
         <a href="#" className="navbar__logo">
-          <img src={brandLogo} alt="Finocube" />
+          <img src={brandLogo} alt="Sippo" />
         </a>
 
         <ul className="navbar__links">

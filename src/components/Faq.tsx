@@ -20,7 +20,7 @@ export default function Faq() {
           <p className="section-label">Got Questions?</p>
           <h2 className="section-title">We&apos;ve Got Answers.</h2>
           <p className="section-subtitle">
-            Common questions about growing with Finocube.
+            Common questions about growing with Sippo.
           </p>
         </motion.div>
 

@@ -27,13 +27,13 @@ function injectSocialMeta(html: string): string {
   const imageUrl = shareImageUrl()
   const tags = `
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Finocube" />
+    <meta property="og:site_name" content="Sippo" />
     <meta property="og:url" content="${SITE_URL}/" />
     <meta property="og:title" content="${SITE_TITLE}" />
     <meta property="og:description" content="${SITE_DESCRIPTION}" />
     <meta property="og:image" content="${imageUrl}" />
     <meta property="og:image:secure_url" content="${imageUrl}" />
-    <meta property="og:image:alt" content="Finocube — Expert-Led Financial Growth" />
+    <meta property="og:image:alt" content="Sippo — Expert-Led Financial Growth" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${SITE_TITLE}" />
     <meta name="twitter:description" content="${SITE_DESCRIPTION}" />
@@ -51,6 +51,6 @@ export default defineConfig(({ mode }) => ({
       transformIndexHtml: injectSocialMeta,
     },
   ],
-  // GitHub Pages project site: https://aseempsri.github.io/finocube/
-  base: mode === 'production' ? '/finocube/' : '/',
+  // GitHub Pages project site: https://aseempsri.github.io/sippo/
+  base: mode === 'production' ? '/sippo/' : '/',
 }))

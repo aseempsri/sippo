@@ -1,12 +1,12 @@
 import { publicAsset } from '../utils/paths';
 
 export const company = {
-  name: 'Finocube',
-  domain: 'finocube.com',
+  name: 'Sippo',
+  domain: 'sippo.com',
   partnerOf: 'Elevest',
   partnerUrl: 'https://www.elevest.in/',
   phone: '+91 92117 59888',
-  email: 'hello@finocube.com',
+  email: 'hello@sippo.com',
   tagline: 'One Platform. Every Financial Product.',
   amfiNote:
     'Mutual fund investments are offered through AMFI-registered distribution infrastructure. Mutual Fund Investments are subject to market risks.',
@@ -17,7 +17,7 @@ export const company = {
 };
 
 export const openingQuote =
-  'Build a financial life with clarity — Mutual Funds, FDs, Bonds, and Loans in one place, guided by Finocube’s expert-led, smart, swift, and secure growth approach.';
+  'Build a financial life with clarity — Mutual Funds, FDs, Bonds, and Loans in one place, guided by Sippo’s expert-led, smart, swift, and secure growth approach.';
 
 export const stats = [
   { value: '4', label: 'Product Categories' },
@@ -33,13 +33,13 @@ export const heroBadges = [
 
 export const aboutStory = {
   intro:
-    'Finocube is your one-stop destination for financial growth — Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — with clear guidance, modern tools, and transparent support built around you.',
+    'Sippo is your one-stop destination for financial growth — Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — with clear guidance, modern tools, and transparent support built around you.',
   origin:
     'We combine personalised advice with a seamless digital experience: goal-based planning, instant SIPs, portfolio clarity, and products matched to your life stage — so growing wealth feels simple and confident.',
   today:
-    'Whether you are starting your first SIP or planning retirement, Finocube gives you expert-led, smart, swift, and secure solutions designed for households and individuals — not for selling to other advisors.',
+    'Whether you are starting your first SIP or planning retirement, Sippo gives you expert-led, smart, swift, and secure solutions designed for households and individuals — not for selling to other advisors.',
   closing:
-    'At its core, Finocube is about disciplined planning, the right product mix, and enduring client relationships that last beyond market cycles.',
+    'At its core, Sippo is about disciplined planning, the right product mix, and enduring client relationships that last beyond market cycles.',
 };
 
 export const philosophyBlend = [
@@ -423,7 +423,7 @@ export const clientDocuments: ClientDocument[] = [
     description:
       'Our guide explaining how we assess whether a product fits your age, income, and risk profile — including when a product may be marked unsuitable.',
     howToUse:
-      'Read this to understand how Finocube evaluates product suitability and why certain schemes may require additional declarations before proceeding.',
+      'Read this to understand how Sippo evaluates product suitability and why certain schemes may require additional declarations before proceeding.',
     file: publicAsset('downloads/product-suitability-framework.docx'),
     category: 'suitability',
   },
@@ -473,7 +473,7 @@ export const clientDocuments: ClientDocument[] = [
     description:
       'The mandatory practices our team follows when handling your data — including access controls, security measures, and breach reporting protocols.',
     howToUse:
-      'Review for transparency on how Finocube staff are required to protect your information and respect your data rights.',
+      'Review for transparency on how Sippo staff are required to protect your information and respect your data rights.',
     file: publicAsset('downloads/staff-data-privacy-sop.docx'),
     category: 'privacy',
   },
@@ -511,12 +511,12 @@ export const navLinks = [
 
 export const faqs = [
   {
-    question: 'What is Finocube?',
+    question: 'What is Sippo?',
     answer:
-      'Finocube is a client-focused financial platform helping individuals and families grow wealth with Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — guided by expert-led, smart, swift, and secure advice.',
+      'Sippo is a client-focused financial platform helping individuals and families grow wealth with Mutual Funds, Fixed Deposits, Bonds, and Personal Loans — guided by expert-led, smart, swift, and secure advice.',
   },
   {
-    question: 'What products can I access through Finocube?',
+    question: 'What products can I access through Sippo?',
     answer:
       'Mutual Funds, Fixed Deposits (FDs), Corporate Bonds, and Personal Loans — all in one place with clear guidance.',
   },

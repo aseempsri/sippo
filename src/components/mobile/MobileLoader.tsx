@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import brandLogo from '../../assets/finocube-logo.svg';
+import brandLogo from '../../assets/sippo-logo.svg';
 import { company } from '../../data/content';
 import './MobileLoader.css';
 
@@ -53,7 +53,7 @@ export default function MobileLoader({ onComplete }: MobileLoaderProps) {
         >
           <img
             src={brandLogo}
-            alt="Finocube"
+            alt="Sippo"
             className="mobile-loader__logo"
           />
         </motion.div>

@@ -24,7 +24,7 @@ export default function Contact() {
             transition={{ duration: 0.7 }}
           >
             <p className="section-label">Let&apos;s Connect</p>
-            <h2 className="section-title">Ready to grow with Finocube?</h2>
+            <h2 className="section-title">Ready to grow with Sippo?</h2>
             <p className="section-subtitle">
               Book a complimentary conversation about your goals, risk profile, and the right
               product mix for your household.
@@ -72,7 +72,7 @@ export default function Contact() {
                 <span className="contact__success-icon">🎉</span>
                 <h3>Wonderful — we can&apos;t wait to meet you!</h3>
                 <p>
-                  We&apos;ll reach out shortly to schedule your conversation. Your Finocube journey
+                  We&apos;ll reach out shortly to schedule your conversation. Your Sippo journey
                   begins here.
                 </p>
                 <p className="contact__privacy">{company.privacyNote}</p>

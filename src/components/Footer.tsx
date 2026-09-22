@@ -1,5 +1,5 @@
 import { company } from '../data/content';
-import brandLogo from '../assets/finocube-logo.svg';
+import brandLogo from '../assets/sippo-logo.svg';
 import './Footer.css';
 
 export default function Footer() {
@@ -8,10 +8,10 @@ export default function Footer() {
       <div className="container">
         <div className="footer__top">
           <div className="footer__brand">
-            <img src={brandLogo} alt="Finocube" />
+            <img src={brandLogo} alt="Sippo" />
             <p className="footer__tagline">{company.tagline}</p>
             <p>
-              Finocube helps individuals and families grow with Mutual Funds, FDs, Bonds, and Loans
+              Sippo helps individuals and families grow with Mutual Funds, FDs, Bonds, and Loans
               — expert-led, smart, swift, and secure.
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>&copy; {new Date().getFullYear()} Finocube. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sippo. All rights reserved.</p>
           <p className="footer__partnership">
             <a href={company.partnerUrl} target="_blank" rel="noreferrer">
               {company.partnershipNote}

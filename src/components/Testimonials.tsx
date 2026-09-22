@@ -27,7 +27,7 @@ export default function Testimonials() {
           <p className="section-label">Real Stories</p>
           <h2 className="section-title">Trust built through every market cycle</h2>
           <p className="section-subtitle">
-            Families and clients who chose Finocube for disciplined, multi-product financial guidance —
+            Families and clients who chose Sippo for disciplined, multi-product financial guidance —
             and stayed confident through it all.
           </p>
         </motion.div>

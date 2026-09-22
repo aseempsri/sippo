@@ -1,7 +1,7 @@
 /** Production site URL (no trailing slash). */
-export const SITE_URL = 'https://aseempsri.github.io/finocube';
+export const SITE_URL = 'https://aseempsri.github.io/sippo';
 
-/** Public-folder filename served at /finocube/og-share.png */
+/** Public-folder filename served at /sippo/og-share.png */
 export const SHARE_IMAGE_FILE = 'og-share.png';
 
 /**
@@ -11,7 +11,7 @@ export const SHARE_IMAGE_FILE = 'og-share.png';
 export const SHARE_IMAGE_REVISION = '1';
 
 export const SITE_TITLE =
-  'Finocube | Expert-Led, Smart, Swift & Secure Financial Growth';
+  'Sippo | Expert-Led, Smart, Swift & Secure Financial Growth';
 
 export const SITE_DESCRIPTION =
-  'Finocube helps individuals and families grow with Mutual Funds, FDs, Bonds, and Loans — expert-led guidance, calculators, and clear digital tools.';
+  'Sippo helps individuals and families grow with Mutual Funds, FDs, Bonds, and Loans — expert-led guidance, calculators, and clear digital tools.';
